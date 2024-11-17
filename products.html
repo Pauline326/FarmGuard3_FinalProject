@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmGuard - Agricultural Equipment & Supplies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="images/Farm guard logo.png" alt="FarmGuard Logo">
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html"> About Us</a></li>
+                <li><a href="products.html"> Products</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+            </ul>
+
+            <div class="mobile-controls">
+                <div class="cart-icon">
+                    <div class="cart-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+
+                <div class="hamburger">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html"> About Us</a></li>
+                <li><a href="products.html"> Products</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="overlay"></div>
+    <div class="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h2>Shopping Cart</h2>
+            <div class="cart-close">×</div>
+        </div>
+        <div class="cart-items">
+            
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount">KES 0</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>FarmGuard Products</h1>
+            <p>Premium Agricultural Products for Modern Farming</p>
+        </div>
+    </header>
+    
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Combine Harvester.jpg" alt="Combine Harvester Pro X1000"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Harvesting Equipment</span>
+                <h2 class="product-title">Combine Harvester Pro X1000</h2>
+                <p class="product-description">Advanced harvesting machine with GPS guidance and yield monitoring system.</p>
+                <div class="product-footer">
+                    <span class="price">KES 17,375,000</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Irrigation.jpg" alt="Smart Irrigation System"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Irrigation</span>
+                <h2 class="product-title">Smart Irrigation System</h2>
+                <p class="product-description">IoT-enabled irrigation system with weather monitoring and automatic scheduling.</p>
+                <div class="product-footer">
+                    <span class="price">KES 416,860</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="/images/Tractor.jpg" alt="Compact Tractor T-200"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Tractors</span>
+                <h2 class="product-title">Compact Tractor T-200</h2>
+                <p class="product-description">Versatile compact tractor perfect for small to medium-sized farms.</p>
+                <div class="product-footer">
+                    <span class="price">KES 2,571,500</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Pression Seeder.jpg" alt="Precision Seeder"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Planting</span>
+                <h2 class="product-title">Precision Seeder PS-100</h2>
+                <p class="product-description">High-accuracy seeding machine with adjustable row spacing.</p>
+                <div class="product-footer">
+                    <span class="price">KES 1,250,860</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Fertilizer Spreader.jpg" alt="Fertilizer Spreader"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Fertilizing</span>
+                <h2 class="product-title">Auto Fertilizer Spreader</h2>
+                <p class="product-description">Automated fertilizer spreader with precision control system.</p>
+                <div class="product-footer">
+                    <span class="price">KES 625,500</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Crop Sprayer.jpg" alt="Crop Sprayer"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Crop Protection</span>
+                <h2 class="product-title">Advanced Crop Sprayer</h2>
+                <p class="product-description">Professional spraying system with adjustable boom height.</p>
+                <div class="product-footer">
+                    <span class="price">KES 1,806,860</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Rotary Tiller.jpg" alt="Rotary Tiller"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Soil Preparation</span>
+                <h2 class="product-title">Heavy-Duty Rotary Tiller</h2>
+                <p class="product-description">Professional-grade tiller for efficient soil preparation.</p>
+                <div class="product-footer">
+                    <span class="price">KES 486,360</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Grain Storage Silo.jpg" alt="Grain Storage Silo"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Storage</span>
+                <h2 class="product-title">Smart Grain Silo</h2>
+                <p class="product-description">Temperature-controlled silo with moisture monitoring.</p>
+                <div class="product-footer">
+                    <span class="price">KES 2,085,000</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Hay baler.jpg" alt="Hay Baler"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Hay Equipment</span>
+                <h2 class="product-title">Automatic Hay Baler</h2>
+                <p class="product-description">High-capacity baler with automatic tying system.</p>
+                <div class="product-footer">
+                    <span class="price">KES 3,127,500</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Potato Harvester.jpg" alt="Potato Harvester"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Specialized Equipment</span>
+                <h2 class="product-title">Potato Harvester PH-200</h2>
+                <p class="product-description">Efficient potato harvesting machine with minimal crop damage.</p>
+                <div class="product-footer">
+                    <span class="price">KES 4,865,000</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Green houses.jpg" alt="Greenhouse System"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Structures</span>
+                <h2 class="product-title">Smart Greenhouse System</h2>
+                <p class="product-description">Automated greenhouse with climate control and monitoring.</p>
+                <div class="product-footer">
+                    <span class="price">KES 1,250,860</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="product-card">
+            <div class="image-container">
+                <img src="images/Automated Feeding System.jpg" alt="Livestock Feeder"/>
+            </div>
+            <div class="product-info">
+                <span class="category">Livestock Equipment</span>
+                <h2 class="product-title">Automated Feeding System</h2>
+                <p class="product-description">Programmable feeding system for livestock management.</p>
+                <div class="product-footer">
+                    <span class="price">KES 764,500</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
